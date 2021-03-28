@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 854px;
+    background-image: url('https://medias.cnnbrasil.com.br/ash-e-pikachu-de-pokemon.jpeg?format=JPEG&image=https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/02/27618_80A9793192A037B6.jpg&width=804&height=536&resize=CROP');
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: red;
+  display: flex;
+  justify-content: center;
+}  
+
+.calculadora {
+  background-color: black;
+  display: flex;
+}
+  
+li {
+  background-color: green;
+  width: 50px;
+  height: 30px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3px;
+  font-size: larger;
+  list-style-type: none;
+}
+
+coluna1, #coluna2{
+  display:flex;
+  position: relative;
+  right: 20px;
+}
+
+.showInput {
+  background: rgb(1, 160, 49);
+  width: 200px;
+  height:30px;
+  display: block;
+  justify-content: center;
+}
