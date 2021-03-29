@@ -4,35 +4,37 @@ var btn = document.querySelectorAll(".coluna li"),
 var fimDaOper;    
 
 for(var i = 0;i < btn.length;i++) {
-    document.onkeypress = function() {
+    document.onkeydown = function() {
         if(fimDaOper) {
             showInput.innerHTML = "";
             fimDaOper = 0;
         }
         var key = event.keyCode;
-        for(var e = 0;e <= 9;e++) {
-            if(key === (48+e)) {
+        for(var e = 1;e <= 9;e++) {
+            if(key === (48+e) || (key === (96+e))) {
                 showInput.innerHTML += e;
             }
         }
         switch(key) {
-            case 42:
+            case 106:
                 showInput.innerHTML += "*";
                 break;
-            case 43:
+            case 107:
                 showInput.innerHTML += "+";
                 break;
-            case 45:
+            case 109:
+            case 189:    
                 showInput.innerHTML += "-";
                 break;
-            case 46:
+            case 190:
+            case 194:
                 showInput.innerHTML += ".";
                 break;
-            case 47:
+            case 193:
+            case 111:
                 showInput.innerHTML += "/";
                 break;
             case 13:
-            case 61:
                 fimDaOper = 1;
                 var equacao = showInput.innerHTML;
                 if(equacao) {
@@ -45,8 +47,12 @@ for(var i = 0;i < btn.length;i++) {
                 }   
                 break;
             case 67:
-            case 99:
                 showInput.innerHTML = "";
+                break;
+            case 8:
+                let regErase = /\d$/;
+                let contentStr = showInput.textContent;
+                showInput.innerHTML = contentStr.replace(regErase, "")
                 break;
             default:
                 break;                             
@@ -61,7 +67,7 @@ for(var i = 0;i < btn.length;i++) {
             inputVal = showInput.innerHTML;
 
         switch(btnVal) {
-            case "c":
+            case "C":
                 showInput.innerHTML = "";
                 break;
             case "=":
@@ -69,7 +75,7 @@ for(var i = 0;i < btn.length;i++) {
                 var equacao = inputVal;
                 if(equacao){
                     try {
-                        showInput.innerHTML = eval(equacao);
+                        showInput.innerHTML = eval(equacao);// Valor quando começa com 0 dá outro
                     } catch (e){
                         alert("Erro na expressão");
                     }

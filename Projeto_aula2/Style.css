@@ -1,52 +1,67 @@
 body {
-    font-family: 'Roboto Mono',monospace;
+    font-family: 'Gloria Hallelujah', cursive;
     min-height: 854px;
     background-image: url('https://medias.cnnbrasil.com.br/ash-e-pikachu-de-pokemon.jpeg?format=JPEG&image=https://mediastorage.cnnbrasil.com.br/IMAGES/00/00/02/27618_80A9793192A037B6.jpg&width=804&height=536&resize=CROP');
     background-color: #000000;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-  }
+}
 
 header {
   display: flex;
   justify-content: center;
 }
 
+
 .container {
-  background-color: red;
   display: flex;
   justify-content: center;
 }  
 
 .calculadora {
-  background-color: black;
-  display: flex;
+  background-color: rgba(20, 205, 230, 0.897);
+  border: 5px groove red;
 }
   
 li {
-  background-color: green;
+  background-color: red;
+  border: 3px groove black;
   width: 50px;
   height: 30px;
-  border: 1px solid red;
+  border-radius: 3px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 3px;
-  font-size: larger;
-  list-style-type: none;
+  position: relative;
+  right: 15px;
 }
 
-coluna1, #coluna2{
-  display:flex;
-  position: relative;
-  right: 20px;
+.coluna{
+  cursor: pointer;
+  font-size: larger;
 }
 
 .showInput {
-  background: rgb(1, 160, 49);
-  width: 200px;
+  background: rgba(5, 216, 68, 0.575);
+  border: 3px groove white;
+  width: 235px;
   height:30px;
-  display: block;
-  justify-content: center;
+  position: relative;
+  left: 28px;
+  top: 8px
+}
+
+li:hover {
+  background: mediumspringgreen;
+  transform: scale(1.1);
+}
+
+stan {
+  float: left;
+}
+
+.verificador {
+  width: 88%;
 }
