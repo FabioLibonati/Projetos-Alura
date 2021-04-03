@@ -5,7 +5,8 @@ var cartas = [{
         defesa: 75,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e8/Banner_Androxus.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e8/Banner_Androxus.png", 
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/62/Androxus_VGS_Emote_G.ogg/revision/latest?cb=20170219155004"
 }, {
     nome: 'Ash',
     atributos: {
@@ -13,7 +14,8 @@ var cartas = [{
         defesa: 85,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/bd/Banner_Ash.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/bd/Banner_Ash.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/cd/Flak_VGS_Emote_G.ogg/revision/latest?cb=20170527201311"
 }, {
     nome: 'Atlas',
     atributos: {
@@ -21,7 +23,8 @@ var cartas = [{
         defesa: 85,
         magia: 80
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/55/Banner_Atlas.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/55/Banner_Atlas.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/88/Atlas_VGS_Emote_G.ogg/revision/latest?cb=20190317083703"
 }, {
     nome: 'Barik',
     atributos: {
@@ -29,7 +32,8 @@ var cartas = [{
         defesa: 65,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/ec/Banner_Barik.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/ec/Banner_Barik.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/d8/Engineer_Skin05_SP_Mount_2.ogg/revision/latest?cb=20190504094540"
 }, {
     nome: 'Bomb King',
     atributos: {
@@ -37,7 +41,8 @@ var cartas = [{
         defesa: 60,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/ca/Banner_Bomb_King.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/ca/Banner_Bomb_King.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/86/BombKing_VGS_Emote_G.ogg/revision/latest?cb=20170218011107"
 }, {
     nome: 'Buck',
     atributos: {
@@ -45,7 +50,8 @@ var cartas = [{
         defesa: 80,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/6c/Banner_Buck.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/6c/Banner_Buck.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/c7/Buck_VGS_Emote_G.ogg/revision/latest?cb=20170219175534"
 }, {
     nome: 'Cassie',
     atributos: {
@@ -53,7 +59,8 @@ var cartas = [{
         defesa: 65,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/92/Banner_Cassie.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/92/Banner_Cassie.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/17/Cassie_Night_Bane_VGS_Emote_G.ogg/revision/latest?cb=20170220153411"
 }, {
     nome: 'Corvus',
     atributos: {
@@ -61,7 +68,8 @@ var cartas = [{
         defesa: 75,
         magia: 80
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/64/Banner_Corvus.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/64/Banner_Corvus.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/09/Corvus_VGS_Emote_G.ogg/revision/latest?cb=20200404221254"
 }, {
     nome: 'Dredge',
     atributos: {
@@ -69,7 +77,8 @@ var cartas = [{
         defesa: 60,
         magia: 80
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/4e/Banner_Dredge.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/4e/Banner_Dredge.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0c/Dredge_VGS_Emote_G.ogg/revision/latest?cb=20181005002245"
 }, {
     nome: 'Drogoz',
     atributos: {
@@ -77,7 +86,8 @@ var cartas = [{
         defesa: 70,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/69/Banner_Drogoz.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/69/Banner_Drogoz.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/88/Drogoz_Skin04_VGS_Emote_R.ogg/revision/latest?cb=20180608115605"
 }, {
     nome: 'Evie',
     atributos: {
@@ -85,7 +95,8 @@ var cartas = [{
         defesa: 65,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/ee/Banner_Evie.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/ee/Banner_Evie.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/2/22/Evie_VGS_Emote_G_Alt1.ogg/revision/latest?cb=20161225184836"
 }, {
     nome: 'Fernando',
     atributos: {
@@ -93,7 +104,8 @@ var cartas = [{
         defesa: 85,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/b1/Banner_Fernando.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/b1/Banner_Fernando.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/86/Fernando_VGS_Emote_G.ogg/revision/latest?cb=20170218222528"
 }, {
     nome: 'Furia',
     atributos: {
@@ -101,7 +113,8 @@ var cartas = [{
         defesa: 70,
         magia: 80
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/07/Banner_Furia.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/07/Banner_Furia.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a3/WWB_VOX_Furia_Skin05_58~Furia_Skin05_SP_Taunt_1.ogg/revision/latest?cb=20200712174024"
 }, {
     nome: 'Grohk',
     atributos: {
@@ -109,7 +122,8 @@ var cartas = [{
         defesa: 70,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7d/Banner_Grohk.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7d/Banner_Grohk.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/ac/Shaman_Skin04_VGS_Emote_G.ogg/revision/latest?cb=20190117094718"
 }, {
     nome: 'Grover',
     atributos: {
@@ -117,7 +131,8 @@ var cartas = [{
         defesa: 60,
         magia: 55
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/45/Banner_Grover.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/45/Banner_Grover.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/2/27/Grover_Skin04_VGS_Emote_G.ogg/revision/latest?cb=20180914092515"
 }, {
     nome: 'Imani',
     atributos: {
@@ -125,7 +140,8 @@ var cartas = [{
         defesa: 65,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/fc/Banner_Imani.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/fc/Banner_Imani.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/b3/Imani_Skin02_VGS_Emote_G.ogg/revision/latest?cb=20190316154313"
 
 }, {
     nome: 'Inara',
@@ -134,7 +150,8 @@ var cartas = [{
         defesa: 85,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/3/3b/Banner_Inara.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/3/3b/Banner_Inara.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e5/WWB_VOX_Inara_Skin04_62~Inara_Skin04_TR_Kill_Streak_3.ogg/revision/latest?cb=20200720061747"
 }, {
     nome: 'Io',
     atributos: {
@@ -142,7 +159,8 @@ var cartas = [{
         defesa: 70,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/9f/Banner_Io.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/9f/Banner_Io.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/14/WWB_VOX_Io_Skin03_2~Io_Skin03_TR_Taunt_Directed_Cassie_1.ogg/revision/latest?cb=20200715072338"
 }, {
     nome: 'Jenos',
     atributos: {
@@ -150,7 +168,8 @@ var cartas = [{
         defesa: 70,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e4/Banner_Jenos.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e4/Banner_Jenos.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/2/21/Astro_Skin03_VGS_Emote_R.ogg/revision/latest?cb=20180329025257"
 }, {
     nome: 'Khan',
     atributos: {
@@ -158,7 +177,8 @@ var cartas = [{
         defesa: 80,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/bd/Banner_Khan.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/bd/Banner_Khan.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/c9/WWB_VOX_Khan_Skin05_50~Khan_Skin05_SP_Taunt_2.ogg/revision/latest?cb=20200711092354"
 }, {
     nome: 'Kinessa',
     atributos: {
@@ -166,7 +186,8 @@ var cartas = [{
         defesa: 65,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/d5/Banner_Kinessa.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/d5/Banner_Kinessa.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/ae/Kinessa_Skin03_TR_Taunt_Directed_Drogoz_2.ogg/revision/latest?cb=20170410144003"
 }, {
     nome: 'Koga',
     atributos: {
@@ -174,7 +195,8 @@ var cartas = [{
         defesa: 70,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/51/Banner_Koga.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/51/Banner_Koga.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/9c/Koga_Skin01_VGS_Emote_G.ogg/revision/latest?cb=20181027085511"
 }, {
     nome: 'Lex',
     atributos: {
@@ -182,7 +204,8 @@ var cartas = [{
         defesa: 65,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a3/Banner_Lex.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a3/Banner_Lex.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/d3/Lex_Skin03_VGS_Emote_G.ogg/revision/latest?cb=20180806094044"
 }, {
     nome: 'Lian',
     atributos: {
@@ -190,7 +213,8 @@ var cartas = [{
         defesa: 65,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/ac/Banner_Lian.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/ac/Banner_Lian.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/01/Princess_Skin02_VGS_Emote_G.ogg/revision/latest?cb=20180114033405"
 }, {
     nome: 'Maeve',
     atributos: {
@@ -198,7 +222,8 @@ var cartas = [{
         defesa: 75,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7e/Banner_Maeve.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7e/Banner_Maeve.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/83/Maeve_Skin03_VGS_Emote_G.ogg/revision/latest?cb=20170902170140"
 }, {
     nome: 'Makoa',
     atributos: {
@@ -206,7 +231,8 @@ var cartas = [{
         defesa: 85,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/d0/Banner_Makoa2.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/d0/Banner_Makoa2.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/3/36/Makoa_Skin05_VGS_Emote_G.ogg/revision/latest?cb=20180719154359"
 }, {
     nome: 'Mal\'Damba',
     atributos: {
@@ -214,7 +240,8 @@ var cartas = [{
         defesa: 60,
         magia: 80
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/47/Banner_Mal%27Damba.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/47/Banner_Mal%27Damba.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/55/Snek_Skin04_VGS_Emote_G.ogg/revision/latest?cb=20180719185039"
 }, {
     nome: 'Moji',
     atributos: {
@@ -222,7 +249,8 @@ var cartas = [{
         defesa: 80,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/93/Banner_Moji.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/93/Banner_Moji.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e1/Rider_Skin01_VGS_Emote_G.ogg/revision/latest?cb=20180822035351"
 }, {
     nome: 'Octavia',
     atributos: {
@@ -230,7 +258,8 @@ var cartas = [{
         defesa: 70,
         magia: 60
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/6e/Octavia_Default.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/6e/Octavia_Default.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/b6/Octavia_TR_FriendlyKillStreak_1.ogg/revision/latest?cb=20210306095514"
 }, {
     nome: 'Pip',
     atributos: {
@@ -238,7 +267,8 @@ var cartas = [{
         defesa: 65,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/f4/Banner_Pip.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/f4/Banner_Pip.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7f/Pip_Mad_Scientist_VGS_Emote_G.ogg/revision/latest?cb=20170220192111"
 }, {
     nome: 'Raum',
     atributos: {
@@ -246,7 +276,8 @@ var cartas = [{
         defesa: 90,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/b2/Banner_Raum.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/b2/Banner_Raum.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0f/Raum_Skin04_SP_Weapon_2.ogg/revision/latest?cb=20210307161437"
 }, {
     nome: 'Ruckus',
     atributos: {
@@ -254,7 +285,8 @@ var cartas = [{
         defesa: 75,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/67/Banner_Ruckus.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/6/67/Banner_Ruckus.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e2/Ruckus_Star_Slayer_VGS_Emote_G.ogg/revision/latest?cb=20170220194119"
 }, {
     nome: 'Seris',
     atributos: {
@@ -262,15 +294,8 @@ var cartas = [{
         defesa: 65,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/ba/Banner_Seris.png"
-}, {
-    nome: 'Pip',
-    atributos: {
-        ataque: 65,
-        defesa: 65,
-        magia: 75
-    },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/f4/Banner_Pip.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/ba/Banner_Seris.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e8/Seris_Skin09_TR_Taunt_Directed_Ash.ogg/revision/latest?cb=20200721081347"
 }, {
     nome: 'Sha lin',
     atributos: {
@@ -278,7 +303,8 @@ var cartas = [{
         defesa: 70,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0b/Banner_Sha_Lin.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0b/Banner_Sha_Lin.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/99/ShaLin_Skin02_TR_Kill_Streak_3.ogg/revision/latest?cb=20170513051649"
 }, {
     nome: 'Skye',
     atributos: {
@@ -286,7 +312,8 @@ var cartas = [{
         defesa: 65,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/8d/Banner_Skye.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/8d/Banner_Skye.png", 
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/3/32/Skye_Heartbreaker_TR_KillAbility1_2.ogg/revision/latest?cb=20170224071412"
 }, {
     nome: 'Strix',
     atributos: {
@@ -294,7 +321,8 @@ var cartas = [{
         defesa: 70,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/cc/Banner_Strix.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/cc/Banner_Strix.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/be/WWB_VOX_Owl_Skin09_60~Strix_Skin09_TR_Kill_Streak_3.ogg/revision/latest?cb=20200712084856"
 }, {
     nome: 'Talus',
     atributos: {
@@ -302,7 +330,8 @@ var cartas = [{
         defesa: 65,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/4e/Banner_Talus.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/4e/Banner_Talus.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e4/Demon_Skin03_VGS_Emote_G.ogg/revision/latest?cb=20191207090943"
 }, {
     nome: 'Terminus',
     atributos: {
@@ -310,7 +339,8 @@ var cartas = [{
         defesa: 90,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/8f/Banner_Terminus.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/8f/Banner_Terminus.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/5f/Lazarus_Skin03_TR_Victory_2.ogg/revision/latest?cb=20190214083426"
 }, {
     nome: 'Tiberius',
     atributos: {
@@ -318,7 +348,8 @@ var cartas = [{
         defesa: 70,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/1d/Banner_Tiberius.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/1d/Banner_Tiberius.png",
+    udio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/05/Tiberius_SP_Mount_2.ogg/revision/latest?cb=20191207092112"
 }, {
     nome: 'Torvald',
     atributos: {
@@ -326,7 +357,8 @@ var cartas = [{
         defesa: 75,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/9a/Banner_Torvald.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/9a/Banner_Torvald.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/8a/Torvald_Skin04_TR_TopPlay_2.ogg/revision/latest?cb=20210115130857"
 }, {
     nome: 'Tyra',
     atributos: {
@@ -334,7 +366,8 @@ var cartas = [{
         defesa: 65,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0c/Banner_Tyra.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0c/Banner_Tyra.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7b/Tyra_Skin08_SP_Ability2_1.ogg/revision/latest?cb=20201006160022"
 }, {
     nome: 'Viktor',
     atributos: {
@@ -342,7 +375,8 @@ var cartas = [{
         defesa: 65,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/1a/Banner_Viktor.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/1a/Banner_Viktor.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/f6/Viktor_Skin08_SP_Mount_1.ogg/revision/latest?cb=20181005133535"
 }, {
     nome: 'Vivian',
     atributos: {
@@ -350,7 +384,8 @@ var cartas = [{
         defesa: 65,
         magia: 70
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/87/Banner_Vivian.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/87/Banner_Vivian.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/af/ChurchHill_Skin01_VGS_Emote_G.ogg/revision/latest?cb=20180309234216"
 }, {
     nome: 'Vora',
     atributos: {
@@ -358,7 +393,8 @@ var cartas = [{
         defesa: 70,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/c8/Banner_Vora.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/c8/Banner_Vora.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/be/Vora_Skin01a_TR_Kill_Streak_3.ogg/revision/latest?cb=20201006130734"
 }, {
     nome: 'Willo',
     atributos: {
@@ -366,7 +402,8 @@ var cartas = [{
         defesa: 65,
         magia: 75
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/19/Banner_Willo.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/19/Banner_Willo.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/c5/Fairy_Skin01_VGS_Emote_G.ogg/revision/latest?cb=20170722014944"
 }, {
     nome: 'Yagorath',
     atributos: {
@@ -374,7 +411,8 @@ var cartas = [{
         defesa: 90,
         magia: 80
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a6/Banner_Yagorath.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a6/Banner_Yagorath.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e9/Yagorath_TR_Kill_Streak_4.ogg/revision/latest?cb=20210115083543"
 }, {
     nome: 'Ying',
     atributos: {
@@ -382,7 +420,8 @@ var cartas = [{
         defesa: 75,
         magia: 80
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7d/Banner_Ying.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7d/Banner_Ying.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/00/Ying_Skin11_VGS_Emote_G.ogg/revision/latest?cb=20200215143954"
 }, {
     nome: 'zhin',
     atributos: {
@@ -390,7 +429,8 @@ var cartas = [{
         defesa: 75,
         magia: 65
     },
-    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/13/Banner_Zhin.png"
+    imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/13/Banner_Zhin.png",
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/42/DarkLord_VGS_Emote_G.ogg/revision/latest?cb=20170610002656"
 }, {
     nome: 'Mr. Satan',
     atributos: {
@@ -398,7 +438,8 @@ var cartas = [{
         defesa: 999,
         magia: 999
     },
-    imagem: "https://nipop.files.wordpress.com/2012/01/mr-satan.jpg?w=300"
+    imagem: "https://nipop.files.wordpress.com/2012/01/mr-satan.jpg?w=300",
+    audio: "https://static.wikia.nocookie.net/soundeffects/images/1/13/Anime_Strong_Hit_Sound_2.ogg/revision/latest?cb=20180527171351"
 
 }]
 
@@ -419,133 +460,123 @@ function sortearCarta() {
     cartaJogador = cartas[numeroCartaJogador]
     cartas.splice(numeroCartaJogador, 1) // Remove uma carta do baralho
 
-    document.querySelector('.title-cartas').innerHTML = `<p>Restam ${cartas.length} cartas no baralho</p>`
-
     console.log(cartas)
-    let jogador = document.querySelector('.moldura')
+    let jogador = document.querySelector('.molduraJogador')
     jogador.innerHTML = `<p>${cartaJogador.nome}</p><img class="molduraTest" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: 300px; height: 500px;"><div class='habilidadesCarta'><p>Ataque: ${cartaJogador.atributos.ataque}</p><p>Defesa: ${cartaJogador.atributos.defesa}</p><p>Magia: ${cartaJogador.atributos.magia}</p></div>`
 
     document.querySelector('.molduraTest').style.backgroundImage = `url(${cartaJogador.imagem})`
 
-    //let moldura = '<img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: inherit; height: inherit; position: absolute;">'
-
-
-    //jogador.innerHTML += `<div class='player1'><h2>${cartaJogador.nome}</h2><img src="${cartaJogador.imagem}"><p>Ataque: ${cartaJogador.atributos.ataque}</p><p>Defesa: ${cartaJogador.atributos.defesa}</p><p>Magia: ${cartaJogador.atributos.magia}</p></div>`
-
     document.querySelector('#btnSortear').disabled = true
+
+    if(cartaJogador.nome == 'Mr. Satan') {
+        document.querySelector('.title-cartas').innerHTML = '<p>Você ganhou o jogo com o poderoso Mr. Satan</p>'
+    }
 
     exibirOpcoes()
 }
 
 function exibirOpcoes() {
-    let opcoes = document.querySelector('#opcoes')
+    let opcoes = document.querySelector('#carta')
     let opcoesTexto = ""
     for (let atributo in cartaJogador.atributos) {
         if (atributo == "ataque") {
-            opcoesTexto += `<div class="valorSelecao"><span value='ataque'>Ataque: </span><a href='#'><img onclick='ataque()' class='ratioImg' src='https://opengameart.org/sites/default/files/Attack.png' alt='Ataque'></a><br>`
+            opcoesTexto += `<div class="valorSelecao"><span>Ataque: </span><a href='#'><img onclick='lutar(this)' class='ratioImg' src='https://opengameart.org/sites/default/files/Attack.png' alt='Ataque'></a><br>`
 
         } else if (atributo == "defesa") {
-            opcoesTexto += `<span>Defesa: </span><a href='#'><img onclick="defesa()" class='ratioImg'src='https://previews.123rf.com/images/valentint/valentint1506/valentint150602566/41149061-shield-icon-internet-button-on-white-background.jpg' alt='Defesa'></a><br>`
+            opcoesTexto += `<span>Defesa: </span><a href='#'><img onclick="lutar(this)" class='ratioImg'src='https://previews.123rf.com/images/valentint/valentint1506/valentint150602566/41149061-shield-icon-internet-button-on-white-background.jpg' alt='Defesa'></a><br>`
 
         } else {
-            opcoesTexto += `<span>Magia: </span><a href='#'><img onclick="magia()" class='ratioImg' src='https://previews.123rf.com/images/hobbitfoot/hobbitfoot1709/hobbitfoot170900921/86053567-bottle-of-cold-game-icon-of-magic-elixir-interface-for-rpg-or-match3-game-cold-winter-snow-small-var.jpg' alt='Magia'></a></div>`
+            opcoesTexto += `<span>Magia: </span><a href='#'><img onclick="lutar(this)" class='ratioImg' src='https://previews.123rf.com/images/hobbitfoot/hobbitfoot1709/hobbitfoot170900921/86053567-bottle-of-cold-game-icon-of-magic-elixir-interface-for-rpg-or-match3-game-cold-winter-snow-small-var.jpg'" alt='Magia'></a></div>`
         }
     }
-    opcoes.innerHTML = opcoesTexto
+
+    opcoes.innerHTML += opcoesTexto
 }
 
-function ataque() {
+function lutar(element) {
+    let textElement = element.src
+
+    let returnHabilidade = validaSkill(textElement)
+    console.log(returnHabilidade)
+
     ouvirAudio()
+    // Configura o tempo para o programa começar a rodar depois que o som acabar
     setTimeout(() => {
         novoJogador()
-        ataqueJogador = cartaJogador.atributos.ataque
-        ataqueMaquina = cartaMaquina.atributos.ataque
+        atributoJogador = cartaJogador.atributos[returnHabilidade]
+        atributoMaquina = cartaMaquina.atributos[returnHabilidade]
 
-        if (ataqueJogador > ataqueMaquina) {
-            document.querySelector('#form').innerHTML = '<p>Você venceu!!!</p>'
+        let molduraJogador = document.querySelector('.molduraTest')
+        let molduraMaquina = document.querySelector('.molduraImagem2')
+
+        if (atributoJogador > atributoMaquina) {
+            document.querySelector('#form').innerHTML = `<p>Você venceu!!!</p><audio autoplay><source src='${cartaJogador.audio}' type='audio/mpeg'></audio>`
+            molduraJogador.style.border = '2px solid blue'
+            molduraJogador.style.boxShadow = '6px 5px 50px 24px #1500FF'
+            molduraMaquina.style.border = '2px solid red'
+            molduraMaquina.style.boxShadow = '6px 5px 50px 24px #FF0000'
             pontosJogador++
-        } else if (ataqueJogador < ataqueMaquina) {
-            document.querySelector('#form').innerHTML = '<p>Você perdeu!!!</p>'
+
+        } else if (atributoJogador < atributoMaquina) {
+            document.querySelector('#form').innerHTML = `<p>Você perdeu!!!</p><audio autoplay><source src='${cartaMaquina.audio}' type='audio/mpeg'>`
+            molduraMaquina.style.border = '2px solid blue'
+            molduraMaquina.style.boxShadow = '6px 5px 50px 24px #1500FF'
+            molduraJogador.style.border = '2px solid red'
+            molduraJogador.style.boxShadow = '6px 5px 50px 24px #FF0000'
             pontosMaquina++
+
         } else {
             document.querySelector('#form').innerHTML = '<p>Empatou</P>'
         }
-        document.querySelector('.title-cartas').innerHTML = `<p style='color: red;'>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`
         document.querySelector('#form').innerHTML += `<button type='button' onclick='proximaRodada()'>Próxima rodada</button>`
+        document.querySelector('.title-cartas').innerHTML = `<p>Restam ${cartas.length} cartas no baralho</p><p style='color: red;'>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`
     }, 2000)
 }
 
-function defesa() {
-    ouvirAudio()
-    setTimeout(() => {
-        novoJogador()
-        defesaJogador = cartaJogador.atributos.defesa
-        defesaMaquina = cartaMaquina.atributos.defesa
-
-        if (defesaJogador > defesaMaquina) {
-            document.querySelector('#form').innerHTML = '<p>Você venceu!!!</p>'
-            pontosJogador++
-        } else if (defesaJogador < defesaMaquina) {
-            document.querySelector('#form').innerHTML = '<p>Você perdeu!!!</p>'
-            pontosMaquina++
-        } else {
-            document.querySelector('#form').innerHTML = '<p>Empatou</P>'
-        }
-        document.querySelector('.title-cartas').innerHTML = `<p style='color: red;'>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`
-        document.querySelector('#form').innerHTML += `<button type='button' onclick='proximaRodada()'>Proxima rodada</button>`
-    }, 2000)
-}
-
-function magia() {
-    ouvirAudio()
-    setTimeout( () => {
-        novoJogador()
-        magiaJogador = cartaJogador.atributos.magia
-        magiaMaquina = cartaMaquina.atributos.magia
-
-        if (magiaJogador > magiaMaquina) {
-            document.querySelector('#form').innerHTML = '<p>Você venceu!!!</p>'
-            pontosJogador++
-        } else if (magiaJogador < magiaMaquina) {
-            document.querySelector('#form').innerHTML = '<p>Você perdeu!!!</p>'
-            pontosMaquina++
-        } else {
-            document.querySelector('#form').innerHTML = '<p>Empatou</P>'
-        }
-        document.querySelector('.title-cartas').innerHTML = `<p style='color: red;'>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`
-        document.querySelector('#form').innerHTML += `<button type='button' onclick='proximaRodada()'>Proxima rodada</button>`
-
-    }, 2000)
-}
-
-function novoJogador() {
-    // Criando a carta do jogador 2 no documento html
-    let maquina = document.querySelector('.molduraAnterior')
-    maquina.innerHTML = `<p>${cartaMaquina.nome}</p><img class="moldura2" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: 300px; height: 500px;"><div class='habilidadesCarta'><p>Ataque: ${cartaMaquina.atributos.ataque}</p><p>Defesa: ${cartaMaquina.atributos.defesa}</p><p>Magia: ${cartaMaquina.atributos.magia}</p></div>`
-
-
-    document.querySelector('.moldura2').style.backgroundImage = `url(${cartaMaquina.imagem})`
-
-    //document.querySelector('#carta').innerHTML += `<div class='player2'><h2>${cartaMaquina.nome}</h2><img src="${cartaMaquina.imagem}"><p>Ataque: ${cartaMaquina.atributos.ataque}</p><p>Defesa: ${cartaMaquina.atributos.defesa}</p><p>Magia: ${cartaMaquina.atributos.magia}</p></div>`
-
+function validaSkill(src) {
+    let valor
+    if(src.endsWith('Attack.png')) {
+        valor = 'ataque'
+    } else if(src.endsWith('background.jpg')) {
+        valor = 'defesa'
+    } else {
+        valor = 'magia'
+    }
+    return valor
 }
 
 function ouvirAudio() {
     let audio = `<audio autoplay><source src='https://www.partnersinrhyme.com/files/sounds1/MP3/human/fight/attack.mp3' type='audio/mpeg'></audio>`
-    document.querySelector('#form').innerHTML = audio
+    document.querySelector('#carta').innerHTML += audio
+}
+
+function novoJogador() {
+    // Criando a carta do jogador 2 no documento html
+    let maquina = document.querySelector('.title-cartas')
+
+    document.querySelector('.valorSelecao').innerHTML = '' // Remover as opções de ataque, defesa e magia
+
+    maquina.innerHTML += `<div class="molduraMaquina"><p>${cartaMaquina.nome}</p><img class="molduraImagem2" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent.png" style=" width: 300px; height: 500px;"><div class='habilidadesCarta'><p>Ataque: ${cartaMaquina.atributos.ataque}</p><p>Defesa: ${cartaMaquina.atributos.defesa}</p><p>Magia: ${cartaMaquina.atributos.magia}</p></div></div>`
+
+    document.querySelector('.molduraImagem2').style.backgroundImage = `url(${cartaMaquina.imagem})`
 }
 
 function proximaRodada() {
-    document.querySelector('#btnSortear').innerHTML
-    let inicio = document.querySelector('#carta')
-    inicio.innerHTML = `<h2>Escolha o seu atributo</h2>
-                        <div class="title-cartas"></div>
-                        <div class="moldura">
-                            <div class="molduraImagem"></div>
+    let inicio = document.querySelector('.container')
+    inicio.innerHTML = `<button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+                        <div id="carta">
+                            <h2>Escolha o seu atributo</h2>
+                            <div class="title-cartas"></div>
+                            <div class="moldura">
+                                <div class="molduraImagem"></div>
+                            </div>
+                            <div class="molduraAnterior">
+                                <div class='molduraImagem2'></div>
+                            </div>
                         </div>
-                        <div class="molduraAnterior">
-                            <div class='moldura2'></div>
-                        </div>`
+                    <div id="form">        
+                        <div class="opcoes" id="opcoes"></div>
+                    </div>`
 }
 
 function jogarNovamente() {

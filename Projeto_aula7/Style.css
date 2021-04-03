@@ -1,9 +1,9 @@
 body {
     font-family: 'Roboto Mono', monospace;
     background-image: url('https://webcdn.hirezstudios.com/paladins/wp-content/uploads/2019/06/image18.png');
-    background-color: #000000;
+    background-attachment:fixed;
     background-size: cover;
-    background-position: 50% 22%;
+    /*background-position: 50% 22%;*/
     background-repeat: no-repeat;
 }
 
@@ -13,11 +13,27 @@ body {
 }
 
 button {
-    padding: .8rem 1.5rem;
-    margin: 1rem 0;
-    border-radius: 5px;
-    border: none;
-    font-size: 1rem;
+    background-color:#fa3246;
+    color: white;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: #fa3246da;
+    box-shadow: 9px 10px 31px 15px rgba(0,0,0,0.4);
+    transform: translateY(4px);
+}
+/* Parei com o CSS aqui no botão*/
+#carta {
+    display: block;
+    justify-content: center; 
+    font-weight: bolder;
+}
+
+.molduraMaquina {
+    display: inline-block;
 }
 
 .molduraTest{
@@ -26,12 +42,6 @@ button {
     background-position-y: 70px;
     background-position-x: -70px;
     background-size: 370px; 
-}
-
-#carta {
-    display: block;
-    justify-content: center; 
-    font-weight: bolder;
 }
 
 .ratioImg{
@@ -55,6 +65,7 @@ p {
 }
 
 .valorSelecao {
+    display: block;
     position: relative;
     bottom: 150px;
     font-size: 22px;
@@ -62,20 +73,23 @@ p {
     font-weight: bolder;
 }
 
-.moldura {
+.molduraJogador {
     display: inline-block;
+    height: 550px;
 }
 
 .molduraAnterior {
     display: inline-block;
 }
 
-.moldura2 {
+.molduraImagem2 {
+    display: inline-block;
     background-color: black;
     background-repeat: no-repeat;
     background-position-y: 70px;
     background-position-x: -70px;
     background-size: 370px;
+    
 }
 
 #form > p {
