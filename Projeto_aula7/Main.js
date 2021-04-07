@@ -60,7 +60,7 @@ var cartas = [{
         magia: 60
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/92/Banner_Cassie.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/17/Cassie_Night_Bane_VGS_Emote_G.ogg/revision/latest?cb=20170220153411"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/73/AUD_VOX_Huntress_VGS_Emote_G-A.ogg/revision/latest?cb=20161226163009"
 }, {
     nome: 'Corvus',
     atributos: {
@@ -114,7 +114,7 @@ var cartas = [{
         magia: 80
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/07/Banner_Furia.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a3/WWB_VOX_Furia_Skin05_58~Furia_Skin05_SP_Taunt_1.ogg/revision/latest?cb=20200712174024"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/df/Furia_SP_Mount_2.ogg/revision/latest?cb=20180608100541"
 }, {
     nome: 'Grohk',
     atributos: {
@@ -223,7 +223,7 @@ var cartas = [{
         magia: 65
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7e/Banner_Maeve.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/83/Maeve_Skin03_VGS_Emote_G.ogg/revision/latest?cb=20170902170140"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/42/Maeve_Skin04_VGS_Emote_G.ogg/revision/latest?cb=20180608105656"
 }, {
     nome: 'Makoa',
     atributos: {
@@ -250,7 +250,7 @@ var cartas = [{
         magia: 75
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/93/Banner_Moji.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e1/Rider_Skin01_VGS_Emote_G.ogg/revision/latest?cb=20180822035351"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/f2/Rider_Skin02_VGS_Emote_G.ogg/revision/latest?cb=20181125165410"
 }, {
     nome: 'Octavia',
     atributos: {
@@ -268,7 +268,7 @@ var cartas = [{
         magia: 75
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/f/f4/Banner_Pip.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/7f/Pip_Mad_Scientist_VGS_Emote_G.ogg/revision/latest?cb=20170220192111"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/48/Alchemist_Skin02_VGS_Emote_G.ogg/revision/latest?cb=20170504142734"
 }, {
     nome: 'Raum',
     atributos: {
@@ -277,7 +277,7 @@ var cartas = [{
         magia: 70
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/b2/Banner_Raum.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0f/Raum_Skin04_SP_Weapon_2.ogg/revision/latest?cb=20210307161437"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/15/Raum_Skin02_VGS_Emote_G.ogg/revision/latest?cb=20200215141106"
 }, {
     nome: 'Ruckus',
     atributos: {
@@ -295,7 +295,7 @@ var cartas = [{
         magia: 75
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/ba/Banner_Seris.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e8/Seris_Skin09_TR_Taunt_Directed_Ash.ogg/revision/latest?cb=20200721081347"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/2/24/Seris_Skin01_VGS_Emote_G.ogg/revision/latest?cb=20170915235211"
 }, {
     nome: 'Sha lin',
     atributos: {
@@ -304,7 +304,7 @@ var cartas = [{
         magia: 65
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/0b/Banner_Sha_Lin.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/99/ShaLin_Skin02_TR_Kill_Streak_3.ogg/revision/latest?cb=20170513051649"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/c3/ShaLin_Skin06_VGS_Emote_G.ogg/revision/latest?cb=20190214082829"
 }, {
     nome: 'Skye',
     atributos: {
@@ -313,7 +313,7 @@ var cartas = [{
         magia: 75
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/8d/Banner_Skye.png", 
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/3/32/Skye_Heartbreaker_TR_KillAbility1_2.ogg/revision/latest?cb=20170224071412"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/b/bb/Assassin_Skin04_VGS_Emote_G.ogg/revision/latest?cb=20170805000015"
 }, {
     nome: 'Strix',
     atributos: {
@@ -340,7 +340,7 @@ var cartas = [{
         magia: 70
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/8f/Banner_Terminus.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/5f/Lazarus_Skin03_TR_Victory_2.ogg/revision/latest?cb=20190214083426"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/51/Lazarus_Skin03_VGS_Emote_R.ogg/revision/latest?cb=20190214083449"
 }, {
     nome: 'Tiberius',
     atributos: {
@@ -349,7 +349,7 @@ var cartas = [{
         magia: 65
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/1d/Banner_Tiberius.png",
-    udio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/05/Tiberius_SP_Mount_2.ogg/revision/latest?cb=20191207092112"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/05/Tiberius_SP_Mount_2.ogg/revision/latest?cb=20191207092112"
 }, {
     nome: 'Torvald',
     atributos: {
@@ -412,7 +412,7 @@ var cartas = [{
         magia: 80
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a6/Banner_Yagorath.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e9/Yagorath_TR_Kill_Streak_4.ogg/revision/latest?cb=20210115083543"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/c/c6/Yagorath_TR_Respawn_2.ogg/revision/latest?cb=20210115083431"
 }, {
     nome: 'Ying',
     atributos: {
@@ -430,7 +430,7 @@ var cartas = [{
         magia: 65
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/1/13/Banner_Zhin.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/42/DarkLord_VGS_Emote_G.ogg/revision/latest?cb=20170610002656"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/92/Darklord_Skin01_VGS_Emote_G.ogg/revision/latest?cb=20170902170447"
 }, {
     nome: 'Mr. Satan',
     atributos: {
@@ -439,7 +439,7 @@ var cartas = [{
         magia: 999
     },
     imagem: "https://nipop.files.wordpress.com/2012/01/mr-satan.jpg?w=300",
-    audio: "https://static.wikia.nocookie.net/soundeffects/images/1/13/Anime_Strong_Hit_Sound_2.ogg/revision/latest?cb=20180527171351"
+    audio: "https://static.wikia.nocookie.net/soundeffects/images/2/2d/Anime_Explosion_Sound_10.ogg/revision/latest?cb=20201018225754"
 
 }]
 
@@ -448,7 +448,8 @@ var cartaJogador
 var pontosJogador = 0
 var pontosMaquina = 0
 
-function sortearCarta() {
+
+function sortearCarta() {    
     let numeroCartaMaquina = parseInt(Math.random() * cartas.length)
     cartaMaquina = cartas[numeroCartaMaquina]
     cartas.splice(numeroCartaMaquina, 1)// Remove uma carta do baralho
@@ -466,7 +467,7 @@ function sortearCarta() {
 
     document.querySelector('.molduraTest').style.backgroundImage = `url(${cartaJogador.imagem})`
 
-    document.querySelector('#btnSortear').disabled = true
+    document.querySelector('#btnSortear').style.display = 'none'
 
     if(cartaJogador.nome == 'Mr. Satan') {
         document.querySelector('.title-cartas').innerHTML = '<p>Você ganhou o jogo com o poderoso Mr. Satan</p>'
@@ -499,7 +500,7 @@ function lutar(element) {
     let returnHabilidade = validaSkill(textElement)
     console.log(returnHabilidade)
 
-    ouvirAudio()
+    //ouvirAudio()
     // Configura o tempo para o programa começar a rodar depois que o som acabar
     setTimeout(() => {
         novoJogador()
@@ -510,26 +511,26 @@ function lutar(element) {
         let molduraMaquina = document.querySelector('.molduraImagem2')
 
         if (atributoJogador > atributoMaquina) {
-            document.querySelector('#form').innerHTML = `<p>Você venceu!!!</p><audio autoplay><source src='${cartaJogador.audio}' type='audio/mpeg'></audio>`
-            molduraJogador.style.border = '2px solid blue'
-            molduraJogador.style.boxShadow = '6px 5px 50px 24px #1500FF'
+            document.querySelector('.valorSelecao').innerHTML += `<p>Você venceu!!!</p><audio autoplay data-volume='0.0'><source src='${cartaJogador.audio}' type='application/ogg'></audio>`
+            molduraJogador.style.border = '2px solid rgb(255, 255, 255  )'
+            molduraJogador.style.boxShadow = '6px 5px 50px 24px #00FF37'
             molduraMaquina.style.border = '2px solid red'
             molduraMaquina.style.boxShadow = '6px 5px 50px 24px #FF0000'
             pontosJogador++
-
         } else if (atributoJogador < atributoMaquina) {
-            document.querySelector('#form').innerHTML = `<p>Você perdeu!!!</p><audio autoplay><source src='${cartaMaquina.audio}' type='audio/mpeg'>`
+            document.querySelector('.valorSelecao').innerHTML += `<p>Você perdeu!!!</p><audio autoplay><source src='${cartaMaquina.audio}' type='audio/mpeg'></audio>`
+
             molduraMaquina.style.border = '2px solid blue'
-            molduraMaquina.style.boxShadow = '6px 5px 50px 24px #1500FF'
+            molduraMaquina.style.boxShadow = '6px 5px 50px 24px #00FF37'
             molduraJogador.style.border = '2px solid red'
             molduraJogador.style.boxShadow = '6px 5px 50px 24px #FF0000'
             pontosMaquina++
-
         } else {
-            document.querySelector('#form').innerHTML = '<p>Empatou</P>'
+            document.querySelector('.valorSelecao').innerHTML += '<p>Empatou</P>'
         }
-        document.querySelector('#form').innerHTML += `<button type='button' onclick='proximaRodada()'>Próxima rodada</button>`
-        document.querySelector('.title-cartas').innerHTML = `<p>Restam ${cartas.length} cartas no baralho</p><p style='color: red;'>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`
+        document.querySelector('#carta').innerHTML += `<button type='button' onclick='proximaRodada()'>Próxima rodada</button>`
+        $('div').before('<p>Test</p>')
+        //document.querySelector('#carta').innerHTML += `<p>Restam ${cartas.length} cartas no baralho</p><p style='color: red;'>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`
     }, 2000)
 }
 
@@ -563,20 +564,15 @@ function novoJogador() {
 
 function proximaRodada() {
     let inicio = document.querySelector('.container')
-    inicio.innerHTML = `<button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
-                        <div id="carta">
-                            <h2>Escolha o seu atributo</h2>
-                            <div class="title-cartas"></div>
-                            <div class="moldura">
-                                <div class="molduraImagem"></div>
-                            </div>
-                            <div class="molduraAnterior">
-                                <div class='molduraImagem2'></div>
-                            </div>
-                        </div>
-                    <div id="form">        
-                        <div class="opcoes" id="opcoes"></div>
-                    </div>`
+    inicio.innerHTML = `        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+                                <div id="carta">
+                                    <h2>Escolha o seu atributo</h2>
+                                    <div class="title-cartas">
+                                        <div class="molduraJogador">
+                                            <div class="molduraImagem"></div>
+                                        </div>
+                                    </div>
+                                </div>`
 }
 
 function jogarNovamente() {

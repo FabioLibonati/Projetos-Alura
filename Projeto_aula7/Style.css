@@ -10,6 +10,7 @@ body {
 .container {
     text-align: center;
     padding: 20px;
+    height: 0;
 }
 
 button {
@@ -21,19 +22,31 @@ button {
 }
 
 button:hover {
-    background-color: #fa3246da;
+    
     box-shadow: 9px 10px 31px 15px rgba(0,0,0,0.4);
+    
+}
+
+button:active {
+    background-color: #fa3246da;
     transform: translateY(4px);
 }
 /* Parei com o CSS aqui no botão*/
+
+
 #carta {
     display: block;
     justify-content: center; 
     font-weight: bolder;
+    height: 300px;
 }
 
 .molduraMaquina {
+    width: 300px;
+    height: 500px;
     display: inline-block;
+    position: relative;
+    left: 30px;
 }
 
 .molduraTest{
