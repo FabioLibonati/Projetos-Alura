@@ -24,7 +24,7 @@ var cartas = [{
         magia: 80
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/5/55/Banner_Atlas.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/8/88/Atlas_VGS_Emote_G.ogg/revision/latest?cb=20190317083703"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/a2/Atlas_TR_Kill_Streak_1.ogg/revision/latest?cb=20190317083629"
 }, {
     nome: 'Barik',
     atributos: {
@@ -96,7 +96,7 @@ var cartas = [{
         magia: 75
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/ee/Banner_Evie.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/2/22/Evie_VGS_Emote_G_Alt1.ogg/revision/latest?cb=20161225184836"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/7/73/Evie_Merrymaker_VGS_Emote_G.ogg/revision/latest?cb=20170220161246"
 }, {
     nome: 'Fernando',
     atributos: {
@@ -129,7 +129,7 @@ var cartas = [{
     atributos: {
         ataque: 80,
         defesa: 60,
-        magia: 55
+        magia: 60
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/4/45/Banner_Grover.png",
     audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/2/27/Grover_Skin04_VGS_Emote_G.ogg/revision/latest?cb=20180914092515"
@@ -169,7 +169,7 @@ var cartas = [{
         magia: 75
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/e/e4/Banner_Jenos.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/2/21/Astro_Skin03_VGS_Emote_R.ogg/revision/latest?cb=20180329025257"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/9/99/WWB_VOX_Astro_Skin08_46~Astro_Skin08_TR_Idle_2.ogg/revision/latest?cb=20200714090607"
 }, {
     nome: 'Khan',
     atributos: {
@@ -187,7 +187,7 @@ var cartas = [{
         magia: 60
     },
     imagem: "https://static.wikia.nocookie.net/paladins_gamepedia/images/d/d5/Banner_Kinessa.png",
-    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/a/ae/Kinessa_Skin03_TR_Taunt_Directed_Drogoz_2.ogg/revision/latest?cb=20170410144003"
+    audio: "https://static.wikia.nocookie.net/paladins_gamepedia/images/0/05/Kinessa_TR_Victory_1.ogg/revision/latest?cb=20170208230406"
 }, {
     nome: 'Koga',
     atributos: {
@@ -498,9 +498,7 @@ function lutar(element) {
     let textElement = element.src
 
     let returnHabilidade = validaSkill(textElement)
-    console.log(returnHabilidade)
-
-    //ouvirAudio()
+    ouvirAudio()
     // Configura o tempo para o programa começar a rodar depois que o som acabar
     setTimeout(() => {
         novoJogador()
@@ -529,8 +527,7 @@ function lutar(element) {
             document.querySelector('.valorSelecao').innerHTML += '<p>Empatou</P>'
         }
         document.querySelector('#carta').innerHTML += `<button type='button' onclick='proximaRodada()'>Próxima rodada</button>`
-        $('div').before('<p>Test</p>')
-        //document.querySelector('#carta').innerHTML += `<p>Restam ${cartas.length} cartas no baralho</p><p style='color: red;'>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`
+        $('#carta').before(`<p>Restam ${cartas.length} cartas no baralho</p><p>Jogador: ${pontosJogador} | ${pontosMaquina} :Adversário</p>`)
     }, 2000)
 }
 
@@ -548,7 +545,7 @@ function validaSkill(src) {
 
 function ouvirAudio() {
     let audio = `<audio autoplay><source src='https://www.partnersinrhyme.com/files/sounds1/MP3/human/fight/attack.mp3' type='audio/mpeg'></audio>`
-    document.querySelector('#carta').innerHTML += audio
+    $('#carta').before(audio)
 }
 
 function novoJogador() {
@@ -566,7 +563,6 @@ function proximaRodada() {
     let inicio = document.querySelector('.container')
     inicio.innerHTML = `        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
                                 <div id="carta">
-                                    <h2>Escolha o seu atributo</h2>
                                     <div class="title-cartas">
                                         <div class="molduraJogador">
                                             <div class="molduraImagem"></div>
