@@ -510,9 +510,15 @@ function lutar(element) {
         let molduraMaquina = document.querySelector('.molduraImagem2')
 
         if (atributoJogador > atributoMaquina) {
+<<<<<<< Updated upstream
             document.querySelector('#form').innerHTML = `<p>Você venceu!!!</p><audio autoplay><source src='${cartaJogador.audio}' type='audio/mpeg'></audio>`
             molduraJogador.style.border = '2px solid blue'
             molduraJogador.style.boxShadow = '6px 5px 50px 24px #1500FF'
+=======
+            document.querySelector('.valorSelecao').innerHTML += `<p>Você venceu!!!</p><audio autoplay><source src='${cartaJogador.audio}' type='audio/mpeg'></audio>`
+            molduraJogador.style.border = '2px solid rgb(255, 255, 255  )'
+            molduraJogador.style.boxShadow = '6px 5px 50px 24px #00FF37'
+>>>>>>> Stashed changes
             molduraMaquina.style.border = '2px solid red'
             molduraMaquina.style.boxShadow = '6px 5px 50px 24px #FF0000'
             pontosJogador++
