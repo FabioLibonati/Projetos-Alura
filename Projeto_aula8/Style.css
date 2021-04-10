@@ -1,74 +1,81 @@
 body {
-    background-color: #DFDDDD;
-    
-  }
-  
-  section {
-    max-width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    background-Image: url('https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/code-editoren-t.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  
-  section > div {
-    position: relative;
-    top: -70px;
-  }
-  
-  header {
-    display: flex;
-    justify-content: center;
-    transform: translateY(95px);
-  }
-  
-  header img {
-    border-radius: 100%;
-    border: 10px solid white;
-  }
-  
-  .rectangleYellow {
-    background-color: #FFE70E;
-    margin: 10%;
-    margin-bottom: -1%;
-    box-shadow: 5px 10px 0 5px #888888;
-  }
-  
-  .languages {
-    max-width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .languages > img {
-    width: 100%;
-  }
-  
-  .projetosTitulo {
-    background: #FFFFFF;
-    max-width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-top: auto;
-  } 
-  
-  .logos {
-    width: 310px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  a > img {
-    width: 150px;
-    height: 50px;
-    transition: all 2s;
-  }
-  
-  a > img:hover {
-    transform: scale(1.3);
-  }
+  background-image: url("https://files.nsctotal.com.br/s3fs-public/2019-08/MTX01_0.jpg?nk1pZS3h9LJZOqvkHvlwINcM1Jqe8TzQ");
+}
+
+section {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-Image: url('https://www.ionos.com/digitalguide/fileadmin/DigitalGuide/Teaser/code-editoren-t.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+section > div {
+  position: relative;
+  top: -70px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  transform: translateY(150px);
+}
+
+header img {
+  border-radius: 100%;
+  border: 10px solid white;
+}
+
+.rectangleYellow {
+  background-color: #FFE70E;
+  margin: 10%;
+  margin-bottom: -1%;
+  box-shadow: 5px 10px 0 5px #888888;
+}
+
+.languages {
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.languages > img {
+  width: 100%;
+}
+
+.projetosTitulo {
+  background: #FFFFFF;
+  max-width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: auto;
+} 
+
+li a {
+  text-decoration: none;
+}
+
+.logos {
+  width: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: 30px;
+}
+
+a > img {
+  width: 130px;
+  height: 50px;
+  border-radius: 25px;
+  transition: transform 2s, border 3s;
+} 
+
+a > img:hover {
+  transform: scale(1.3);
+  border: 7px solid red;
+}
